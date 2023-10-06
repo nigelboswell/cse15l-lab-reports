@@ -3,19 +3,19 @@
 **cd**
 
 ```
-*no arguements*
+**no arguements**
 [user@sahara ~]$ cd
 [user@sahara ~]$ 
 ```
 
 ```
-*path to a directory*
+**path to a directory**
 [user@sahara ~]$ cd lecture1
 [user@sahara ~/lecture1]$ 
 ```
 
 ```
-*path to a file*
+**path to a file**
 [user@sahara ~/lecture1]$ cd Hello.java
 bash: cd: Hello.java: Not a directory
 ```
@@ -23,19 +23,19 @@ bash: cd: Hello.java: Not a directory
 **ls**
 
 ```
-*no arguements*
+**no arguements**
 [user@sahara ~]$ ls
 lecture1
 ```
 
 ```
-*path to a directory*
+**path to a directory**
 [user@sahara ~]$ ls lecture1
 Hello.class  Hello.java  messages  README
 ```
 
 ```
-*path to a file*
+**path to a file**
 [user@sahara ~]$ ls lecture1/Hello.java
 lecture1/Hello.java
 [user@sahara ~]$ cd lecture1
@@ -46,7 +46,7 @@ Hello.java
 **cat**
 
 ```
-*no arguements*
+**no arguements**
 [user@sahara ~]$ cat
 
 
@@ -55,13 +55,13 @@ no arguement
 ```
 
 ```
-*path to a directory*
+**path to a directory*
 [user@sahara ~]$ cat lecture1
 cat: lecture1: Is a directory
 ```
 
 ```
-*path to a file*
+**path to a file**
 [user@sahara ~]$ cat lecture1/Hello.java
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
