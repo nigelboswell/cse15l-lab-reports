@@ -23,7 +23,7 @@ bash: cd: Hello.java: Not a directory
 **ls**
 
 ```
-**no arguements**
+# no arguements
 [user@sahara ~]$ ls
 lecture1
 ```
