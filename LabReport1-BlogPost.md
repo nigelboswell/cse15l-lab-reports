@@ -1,65 +1,66 @@
 # Using commands in Terminal
 
 **cd**
-'''
+
+```
 *no arguements*
 [user@sahara ~]$ cd
 [user@sahara ~]$ 
-'''
+```
 
-'''
+```
 *path to a directory*
 [user@sahara ~]$ cd lecture1
 [user@sahara ~/lecture1]$ 
-'''
+```
 
-'''
+```
 *path to a file*
 [user@sahara ~/lecture1]$ cd Hello.java
 bash: cd: Hello.java: Not a directory
-'''
+```
 
 **ls**
 
-'''
+```
 *no arguements*
 [user@sahara ~]$ ls
 lecture1
-'''
+```
 
-'''
+```
 *path to a directory*
 [user@sahara ~]$ ls lecture1
 Hello.class  Hello.java  messages  README
-'''
+```
 
-'''
+```
 *path to a file*
 [user@sahara ~]$ ls lecture1/Hello.java
 lecture1/Hello.java
 [user@sahara ~]$ cd lecture1
 [user@sahara ~/lecture1]$ ls Hello.java
 Hello.java
-'''
+```
 
 **cat**
 
-'''
+```
 *no arguements*
 [user@sahara ~]$ cat
 
 
 no arguement
 no arguement
-'''
+```
 
-'''
+```
 *path to a directory*
 [user@sahara ~]$ cat lecture1
 cat: lecture1: Is a directory
-'''
+```
 
-'''
+```
 *path to a file*
 [user@sahara ~]$ cat lecture1/Hello.java
 import java.io.IOException;
@@ -73,4 +74,4 @@ public class Hello {
 );    
     System.out.println(content);
   }
-'''
+```
