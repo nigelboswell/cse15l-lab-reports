@@ -1,0 +1,14 @@
+#Using commands in Terminal
+**cd** (change directory)
+* no arguements
+* path to a directory
+* path to a file
+
+**ls** (list)
+* no arguements
+* path to a directory
+* path to a file
+**cat** (concatenate)
+* no arguements
+* path to a directory
+* path to a file
