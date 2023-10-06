@@ -7,18 +7,21 @@
 [user@sahara ~]$ cd
 [user@sahara ~]$ 
 ```
+Not an error but it automatically reverts to the current directory, so the result would look like nothing changed
 
 ```
 **path to a directory**
 [user@sahara ~]$ cd lecture1
-[user@sahara ~/lecture1]$ 
+[user@sahara ~/lecture1]$
 ```
+The result is a change in the Directory, now we are moved into a further directory from the source, we can now access files directly from here
 
 ```
 **path to a file**
 [user@sahara ~/lecture1]$ cd Hello.java
 bash: cd: Hello.java: Not a directory
 ```
+This was an error, it could not change directory to a file because files are not directories
 
 **ls**
 
@@ -27,12 +30,14 @@ bash: cd: Hello.java: Not a directory
 [user@sahara ~]$ ls
 lecture1
 ```
+This listed the only directory available from the current directory we are in
 
 ```
 **path to a directory**
 [user@sahara ~]$ ls lecture1
 Hello.class  Hello.java  messages  README
 ```
+Here there is now all the files and directories within the lecture1 folder/directory
 
 ```
 **path to a file**
@@ -42,6 +47,7 @@ lecture1/Hello.java
 [user@sahara ~/lecture1]$ ls Hello.java
 Hello.java
 ```
+When listing a file, the result will just be the name of the file
 
 **cat**
 
@@ -53,12 +59,15 @@ Hello.java
 no arguement
 no arguement
 ```
+I don't believe this is an error but rather a result of no input in a command that requires one to create an output,
+the output here will just print back whatever input is put in
 
 ```
 **path to a directory*
 [user@sahara ~]$ cat lecture1
 cat: lecture1: Is a directory
 ```
+This is clarrifying that lecture1 is a directory and not a file. Since it's not a file, this will be the result
 
 ```
 **path to a file**
@@ -75,3 +84,4 @@ public class Hello {
     System.out.println(content);
   }
 ```
+Here the cat command has output the entirety of the content in the file Hello.java, this is not an error but rather one of the primary purposes of this command
