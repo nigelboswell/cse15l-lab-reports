@@ -97,11 +97,11 @@ PS C:\Users\icrea\.ssh>
 ~~~
 Finding where I stored the keys on the ieng6 computer
 ~~~
-![image](https://github.com/nigelboswell/cse15l-lab-reports/assets/146788276/db19ca3c-8048-47d0-ac87-c846b7ae15c7)
+![term1](https://github.com/nigelboswell/cse15l-lab-reports/assets/146788276/eb3db3ff-5c22-4360-8aae-40b531d0b3d6)
 ~~~
 Here I am logging into the ieng6 computer with my ssh authorized key I installed on it from lab. As I am doing this a couple of days afterwards I’m not sure why I need to paste in my key. In lab when I first submitted my sh key to it I had other requirements when logging into the computer other than the ssh command. However, I had to paste my key and then my password this time and can’t figure out how to get around this as I’ve tried many times by this point.
 ~~~
-![image](https://github.com/nigelboswell/cse15l-lab-reports/assets/146788276/07a3bd79-172f-4e75-81e8-eaa256363341)
+![term 2](https://github.com/nigelboswell/cse15l-lab-reports/assets/146788276/e7e7f8b7-b186-4d1d-b478-7a646408d3f6)
 ~~~
 # Part 3:
 
