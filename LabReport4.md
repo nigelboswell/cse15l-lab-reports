@@ -10,7 +10,7 @@ Commit and push the resulting change to your Github account
 ## Lab Report 4
 ** Step 4: Log into ieng6**
 1. ssh cs15lfa23fo@ieng6.ucsd.edu
-2. <enter>
+2. &lt;enter&gt;
 ![image](https://github.com/nigelboswell/cse15l-lab-reports/assets/146788276/7cb34c69-a1a1-4d58-b8c6-5260e5d3b5a1)
 
 ** Step 5:  Clone your fork of the repository from your Github account (using the SSH URL)**
